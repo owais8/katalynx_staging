@@ -1,0 +1,106 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+	width: 100%;
+	height: 60px;
+	padding: 0 30px;
+    z-index: 999;
+	
+	display: flex!important;
+    align-items: center;
+    justify-content: space-between;
+	
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.home header {
+	animation: move-header 2s;
+}
+
+@keyframes move-header {
+		0% {
+			transform: translateY(-20px);
+			opacity: 0;
+		}
+		
+		70% {
+			transform: translateY(-20px);
+			opacity: 0;
+		}
+		
+		100% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+		
+}
+
+header .logo {
+	display: flex;
+	width: 100px;
+	height: 100%;
+	justify-content: flex-start;
+  	align-items: center;
+}
+
+header .logo a {
+	line-height: 0;
+}
+
+header .logo svg {
+	width: 100px;
+	max-width: 100%;
+	height: auto;
+}
+
+header .logo svg path.white,
+header .logo svg polygon.white {
+	color: #fff;
+}
+
+header .logo svg path.yellow {
+	color: #F3FF00;
+}
+
+header .logo svg path.blue {
+	color: #C6D8F1;
+}
+
+header.header-shrink .logo svg path, 
+header.header-shrink .logo svg polygon,
+body:not(.home) header .logo svg path, 
+body:not(.home) header .logo svg polygon {
+	color: #1C2157;
+}
+
+
+header.header-shrink,
+body:not(.home) header {
+	background: #fff;
+	box-shadow: 0 1px 7px rgba(0,0,0,0.2);
+}
+
+
+
+/* on navi open not home, or navi open home scroll */
+
+body:not(.home) header.open .logo svg path.white, 
+body:not(.home) header.open .logo svg polygon.white, 
+body.home header.header-shrink.open .logo svg path.white, 
+body.home header.header-shrink.open .logo svg polygon.white {
+	color: #fff!important;
+}
+
+body:not(.home) header.open .logo svg path.yellow, 
+body.home header.header-shrink.open .logo svg path.yellow {
+	color: #F3FF00!important;
+}
+
+body:not(.home) header.open .logo svg path.blue, 
+body.home header.header-shrink.open .logo svg path.blue {
+	color: #C6D8F1!important;
+}
+

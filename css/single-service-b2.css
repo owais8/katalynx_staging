@@ -1,0 +1,162 @@
+.page-template-single-service-b2 section.single-service#challenges .icon > img {
+    object-fit: contain;
+}
+
+
+/*** solutions *****/
+
+.page-template-single-service-b2 section.single-service#solution .single-solution {
+	padding: 24px;
+	box-shadow: 0px 0px 40px -2px rgba(28, 33, 87, 0.1);
+	border-radius: 12px;
+}
+
+.page-template-single-service-b2 section.single-service#solution .single-solution .header {
+	margin-bottom: 0;
+}
+
+.page-template-single-service-b2 section.single-service#solution .single-solution .header span {
+	color: #7F93DD;
+}
+
+.page-template-single-service-b2 section.single-service#solution .wrapper.solution {
+	gap: 24px!important;
+	border-top: none!important;
+	padding-top: 0!important;
+	padding-bottom: 32px;
+}
+
+.page-template-single-service-b2 section.single-service#solution .single-solution {
+	max-width: 280px!important;
+	flex-basis: 250px!important;
+}
+.page-template-single-service-b2 section.single-service#solution .wrapper.solution::after {
+  width: 250px!important;
+  display: none;
+}
+
+.page-template-single-service-b2 section.single-service#solution .wrapper.solution-logos {
+}
+
+.page-template-single-service-b2 section.single-service#solution .wrapper.solution-logos .single-logo {
+	flex-basis: auto;
+	padding: 12px 32px;
+}
+
+@media all and (max-width:600px) {
+	.page-template-single-service-b2 section.single-service#solution .wrapper.solution-logos .single-logo {
+		flex-basis: 50%;
+		padding: 12px 24px;
+	}
+}
+
+.page-template-single-service-b2 section.single-service#solution .more-logos {
+	margin: 32px 0px auto;
+	text-align: center;
+	font-family: 'LitSans';
+	font-size: 18px;
+	line-height: 22px;
+	color: #1C2157;
+}
+
+.page-id-89862 .page-template-single-service-b2 section.single-service#solution .more-logos  {
+	display: none!important;
+}
+
+/**** services *****/
+
+.page-template-single-service-b2 .sub-section {
+	background: linear-gradient(90deg, #000014 0%, #1C2157 100%)!important;
+	color: #fff!important;
+}
+
+.page-template-single-service-b2 .info-block > .img {
+	box-shadow: none!important;
+}
+
+.page-template-single-service-b2 .info-block > .text > h3 {
+	color: #fff;
+}
+
+.page-template-single-service-b2 .info-block .details {
+	border-top: 1px solid rgba(255,255,255,0.25)!important;
+}
+
+/***** Experts ***********/
+
+.page-template-single-service-b2 section.single-service#solution .photo {
+	margin-bottom: 5px;
+}
+
+.page-template-single-service-b2 section.single-service#solution .photo > img {
+	width: 100%;
+    height: 100%;
+    max-width: 128px;
+    max-height: 128px;
+    object-fit: cover;
+	border-radius: 50%
+}
+
+.page-template-single-service-b2 section.single-service#solution h2 {
+	color: #1c2157;
+}
+
+.page-template-single-service-b2 section.single-service#experts .single-expert .name > span {
+	color: #F3FF00;
+}
+
+.page-template-single-service-b2 section.single-service#solution .single-expert {
+	text-align: center;
+	flex-grow: 1;
+	padding: 32px;
+	max-width: 360px;
+}
+
+.page-template-single-service-b2 section.single-service#solution .wrapper.experts::after {
+  content: ""; /* autofill space in the last row */
+  width: 350px;
+  flex-grow: 1;
+  display: none;
+}
+
+
+/***** Service ********/
+
+.page-template-single-service-b2 .more-details>.single-more {
+	min-width: unset;
+}
+
+/***** contact form *****/
+
+.page-template-single-service-b2 .wpcf7 form .form-container.datenschutz {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+
+/***** hacks *********/
+.page-template-single-service-b2 section.news {
+	padding: 96px 0;
+	display: none; /**************** HIDE INFO SESSION SECTION***********/
+}
+
+@media all and (max-width:840px) {
+	.page-template-single-service-b2 section.single-service,
+	.page-template-single-service-b2 .sub-section, 
+	.page-template-single-service-b2 section.news {
+		padding: 48px 0;
+	}
+	
+	.page-template-single-service-b2 .info-block>.text>.scrollLink, 
+	.page-template-single-service-b2 .info-block>.text>.scroll-contact {
+		margin: 0 auto 32px 0;
+	}
+	
+	.page-template-single-service-b2 .info-block .details {
+		justify-content: center!important;
+	}
+	
+	.page-template-single-service-b2 .info-block .details>.single-details {
+		max-width: 225px;
+	}
+}

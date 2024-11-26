@@ -1,0 +1,200 @@
+/******* Hero *********/
+
+.page-template-podcast-overview {
+		background: #fff;
+}
+
+.page-template-podcast-overview #hero {
+	padding: 0; /* header 60px + 80px; bottom 80px */
+	padding-top: 60px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	min-height: 600px;
+	background: #000014;
+	background: -moz-linear-gradient(left,  #000014 0%, #090b3c 55%, #1c2157 100%);
+	background: -webkit-linear-gradient(left,  #000014 0%,#090b3c 55%,#1c2157 100%);
+	background: linear-gradient(to right,  #000014 0%,#090b3c 55%,#1c2157 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000014', endColorstr='#1c2157',GradientType=1 );
+	color: #fff;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.page-template-podcast-overview #hero .blurred-overlay {
+	background: linear-gradient(90deg, rgba(0, 0, 20, 0.75) 0%, rgba(28, 33, 87, 0.75) 100%);
+	backdrop-filter: blur(26.418066024780273px);
+    height: auto;
+	width: 100%;
+	min-height: 600px;
+    position: absolute;
+    top: 0px;
+}
+
+
+.page-template-podcast-overview #hero .column.txt {
+	padding: 80px 0 80px 0; /* header 60px + 80px; bottom 80px */
+	width: calc(100% - 32px - 400px);
+	margin-right: 32px;
+	z-index:2;
+}
+
+.page-template-podcast-overview .intro h3 {
+	color: white;
+	margin-bottom: 32px;
+}
+
+/* Podcast buttons */
+.page-template-podcast-overview a.button {
+	position: relative;
+	float: left;
+	display: block;
+    width: fit-content;
+	background: #fff;
+    color: #1C2157;
+    margin: 0 12px 12px 0;
+    padding: 8px 16px;
+    border: 1px solid #1C2157;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+}
+
+.page-template-podcast-overview a.button:hover {
+	background: #1C2157;
+	color: #fff;
+}
+
+.page-template-podcast-overview #hero .column.img {
+	width: 400px;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	z-index:2;
+}
+
+.page-template-podcast-overview #hero h1 {
+	font-size: 48px;
+	margin-bottom: 8px;
+	margin-top: 0;
+	
+	color: #f3ff00;
+}
+
+.page-template-podcast-overview #hero .subheader {
+	display: inline-block;
+	color: #C6D8F1;
+	margin-bottom: 16px;
+}
+
+@media all and (max-width:881px) {
+	.page-template-podcast-overview #hero {
+		height:75vh;
+	}
+	
+	.page-template-podcast-overview #hero .blurred-overlay {
+	height:75vh;
+	top:80px;
+	}
+}
+
+@media all and (max-width:840px) {
+	.page-template-podcast-overview .column-60 {
+	order:2;
+	}
+	
+	.page-template-podcast-overview .sidebar-wrapper {
+	margin-bottom:40px;
+	}
+	.page-template-podcast-overview #hero > .wrapper.grid-2 {
+		flex-direction: column;
+	}
+	
+	.page-template-podcast-overview #hero .column.txt {
+		width: 100%!important;
+		margin: 0!important;
+		padding-bottom: 32px !important;
+		padding: 0;
+	}
+	
+	.page-template-podcast-overview #hero .column.img {
+		width: 311px;
+		height: 311px;
+		margin-bottom: 32px!important;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+}
+
+/****** Description ***************/
+
+.page-template-podcast-overview #description {
+	display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+    max-width: 80ch;
+}
+
+/******* Podcast episodes *********/
+
+.page-template-podcast-overview #episodes {
+	background: #1c2157;
+}
+
+.page-template-podcast-overview .previous-episode {
+	margin:0;
+}
+
+.page-template-podcast-overview .previous-episode a {
+	display:flex;
+	gap:40px;
+}
+
+.page-template-podcast-overview .cover {
+	flex-shrink:0;
+	width:311px;
+	height:311px;
+	border-radius:10px;
+	background-size:cover;
+	transition: transform 1s;
+}
+
+
+.page-template-podcast-overview .cover img {
+	width:311px;
+	height:311px;
+	border-radius:10px;
+	object-fit:cover;
+	transition: transform 1s;
+	aspect-ratio:1 / 1;
+}
+
+.page-template-podcast-overview .cover:hover {
+	transform: scale(1.05);
+}
+
+.page-template-podcast-overview .episode-details {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	gap:4px;
+	color:white;
+}
+
+.page-template-podcast-overview .episode-details h3 {
+	margin:0;
+	color:white;
+}
+
+/********** Why with memmbers **************/
+
+.page-template-podcast-overview section.single-service#why .members .single-member {
+	background: none!important;
+	box-shadow: none!important;
+}

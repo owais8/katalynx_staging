@@ -1,0 +1,286 @@
+.page-template-glossary-horizontal #glossary-categories {
+	margin-bottom: 0;
+}
+
+
+/****** index on top ********/
+
+.page-template-glossary-horizontal .glossary-letters-container {
+	position: absolute;
+	width: 100vw;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #fff;
+	z-index: 2!important;
+	border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+
+.page-template-glossary-horizontal  .is-sticky > .glossary-letters-container {
+	width: 100vw!important;
+}
+
+.page-template-glossary-horizontal .glossary-letters {
+	display: block;
+	width: 100%;
+	clear: both;
+    max-width: 1200px;
+    padding: 0 30px;
+	margin: 0 auto;
+}
+
+.page-template-glossary-horizontal .glossary-letters ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	
+	background: none;
+	width: 100%;
+	padding: 30px 0;
+	margin: 0!important;
+	text-align: center;
+	
+	transform: translate(0, 0); /* For browsers don't support translate3d. */
+	transform: translate3d(0, 0, 0);
+}
+
+.page-template-glossary-horizontal .glossary-letters ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto 5px auto;
+	cursor: pointer;
+	width: 20px;
+    height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	border: none;
+	opacity: 0.5;
+	
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.page-template-glossary-horizontal .glossary-letters ul li.active, 
+.page-template-glossary-horizontal .glossary-letters ul li:hover{
+	border: none;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.page-template-glossary-horizontal .glossary-letters ul li:before{
+	display: none;
+}
+
+.page-template-glossary-horizontal .glossary-letters ul li.blocked{
+	opacity: 0.2;
+	display: none;
+}
+
+
+@media all and (max-width:840px) {
+	.page-template-glossary-horizontal .glossary-letters {
+		
+	}
+	
+	.page-template-glossary-horizontal .glossary-letters ul {
+		gap: 20px;
+	}
+	
+	.page-template-glossary-horizontal .glossary-letters ul li {
+		flex-basis: 8%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		margin: 0;
+	}
+}
+
+@media all and (max-width:640px) {
+	.page-template-glossary-horizontal .container#main {
+		padding: 0 30px;
+	}
+	
+	.page-template-glossary-horizontal .glossary-letters-container {
+		position: relative;
+		left: -30px;
+    	transform: none;
+	}
+	
+	.page-template-glossary-horizontal .glossary-letters ul li a {
+		transition: none!important;
+	}
+}
+
+/*****************/
+
+
+
+
+
+/****** Glossary changes with sidebar **********/
+
+.page-template-glossary-horizontal .container#main {
+	display: block;
+}
+
+.page-template-glossary-horizontal #glossary-content {
+	width: 100%;
+}
+
+.page-template-glossary-horizontal .glossary-container {
+	width: calc(100% - 295px - 57px);
+    float: left;
+}
+
+.page-template-glossary-horizontal .glossary-list {
+	flex: 0 1 100%;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar {
+	display: block!important;
+	width: 295px;
+	float: right;
+	margin-top: 60px;
+	will-change: min-height;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar > div {
+	/* will-change: position, transform; */
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_light-blue {
+	width: 295px;
+	background: #C6D8F1;
+	padding: 32px;
+	margin-bottom: 22px;
+	border: 1px solid #F3F4F6;
+	box-shadow: 20px 20px 40px -2px rgba(28, 33, 87, 0.05);
+	border-radius: 8px;
+	text-align: center;
+	color: #1C2157;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_light-blue .header {
+	font-family: 'LitSans';
+	font-size: 26px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_light-blue .text {
+	font-size: 15px;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_light-blue .read-more {
+	margin: 0 auto;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_light-blue .read-more:before, 
+.page-template-glossary-horizontal #glossary-sidebar .box_light-blue .read-more:after {
+    transform:scale(.85)
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_dark-blue {
+	width: 295px;
+	padding: 32px;
+	margin: 0;
+	background: linear-gradient(90deg, #000014 0%, #1C2157 100%);
+	border: 1px solid #F3F4F6;
+	box-shadow: 20px 20px 40px -2px rgba(28, 33, 87, 0.05);
+	border-radius: 8px;
+	color: #fff;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_dark-blue .header {
+	font-family: 'LitSans';
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_dark-blue .links a {
+	display: block;
+	border: 1px solid #c6d8f1;
+	color: #fff;
+	width: fit-content;
+	margin: 0 0 16px 0;
+	padding: 8px 16px;
+	border-radius: 21px;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_dark-blue .links a:last-of-type {
+	margin-bottom: 0;
+}
+
+.page-template-glossary-horizontal #glossary-sidebar .box_dark-blue .links a:hover {
+    background: #c6d8f1;
+    color:#1c2157
+}
+
+
+@media all and (max-width:1024px) {
+	.page-template-glossary-horizontal .glossary-container {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	
+	.page-template-glossary-horizontal #glossary-content {
+		width: 100%;
+	}
+
+	.page-template-glossary-horizontal .glossary-letters ul {
+		margin-left: 0;
+	}
+	
+	.page-template-glossary-horizontal .glossary-list {
+		margin-right: 30px;
+	}
+	
+	.page-template-glossary-horizontal #glossary-sidebar {
+		width: auto;
+		float: none;
+		clear: both;
+		box-sizing: content-box;
+		margin: 0 auto;
+		padding: 30px 30px 0 30px;
+	}
+	
+	.page-template-glossary-horizontal #glossary-sidebar .sidebar-inside {
+		display: flex;
+		gap: 22px;
+		justify-content: center;
+		align-items: flex-start;
+	}
+}
+
+@media all and (max-width:640px) {	
+	.page-template-glossary-horizontal #glossary-sidebar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	
+	.page-template-glossary-horizontal .glossary-list {
+		margin-right: 0;
+	}
+	
+	.page-template-glossary-horizontal #glossary-sidebar .sidebar-inside {
+		flex-direction: column;
+		gap: 0;
+	}
+	
+	.page-template-glossary-horizontal #glossary-sidebar .box_light-blue {
+		width: 100%;
+		margin: 0 auto 22px auto;
+	}
+	
+	.page-template-glossary-horizontal #glossary-sidebar .box_dark-blue {
+		width: 100%;
+		margin: 0 auto;
+	}
+}

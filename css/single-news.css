@@ -1,0 +1,45 @@
+.single-post {
+	background: #fff;
+}
+
+.single-post #hero {
+	padding: 100px 0 40px 0; /* header 60px + 40px; bottom 40px */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	min-height: 360px;
+	height: auto;
+	color: #fff;
+	background: #000014;
+	background: -moz-linear-gradient(left,  #000014 0%, #090b3c 55%, #1c2157 100%);
+	background: -webkit-linear-gradient(left,  #000014 0%,#090b3c 55%,#1c2157 100%);
+	background: linear-gradient(to right,  #000014 0%,#090b3c 55%,#1c2157 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000014', endColorstr='#1c2157',GradientType=1 );
+}
+
+.single-post #hero h1 {
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.single-post .post-text {
+	padding-bottom: 60px;
+}
+
+
+.single-post .content .social {
+	margin-bottom: 40px;
+}
+
+.single-post #related-articles {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	background: rgba(28, 33, 87, 0.05);
+}
+
+.single-post #related-articles h2 {
+	margin-bottom: 60px;
+}

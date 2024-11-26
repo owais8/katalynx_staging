@@ -1,0 +1,124 @@
+.only-mobile {
+	display: block!important;
+}
+
+
+
+/* ---------------------- Allgemein ------------------------------- */
+
+
+section {
+	padding: 80px 0;
+}
+
+.container {
+}
+
+
+/* ---------------------- Buttons ------------------------------- */
+
+a.action-button {
+  min-width: auto;
+  max-width: auto;
+}
+
+
+
+/* ---------------------- Grids ------------------------------- */
+
+.col {
+  flex-basis: 100%;
+	margin: 0 0 3em 0;
+}
+
+.col:last-child {
+	margin-bottom: 0!important;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5 {
+  margin-bottom: 2em;
+}
+
+.grid-1 .column, .grid-2 .column, .grid-3 .column, .grid-4 .column, .grid-5 .column {
+	float: none;
+    clear: both;
+    width: 100%!important;
+    margin: 0 0 2em 0!important;
+}
+
+.grid-2 .column:first-child,
+.grid-3 .column:first-child,
+.grid-3 .column:last-child {
+	float: none;
+    clear: both;
+    width: 100%!important;
+    margin: 0;
+}
+
+.grid-1 .column:last-child, .grid-2 .column:last-child, .grid-3 .column:last-child, .grid-4 .column:last-child {
+	margin-bottom: 0!important;
+}
+
+
+.grid-2.ohne-margin .column,
+.grid-2.ohne-margin .column:first-child {
+	width: 100%!important;
+	margin: 0!important;
+}
+
+
+.column-20,
+.column-30,
+.column-40,
+.column-60,
+.column-70,
+.column-80 {
+	float: none;
+  	width: 100%;
+	margin: 2em 0 0 0!important;
+}
+
+.column-30:first-child,
+.column-40:first-child,
+.column-60:first-child,
+.column-70:first-child {
+	margin-top: 0!important;
+}
+
+.grid-2-50 .column {
+	float: none;
+    clear: both;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+
+/* ---------------------- Überschriften ------------------------------- */
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+.home #hero h1 {
+	font-size: 1.8em!important;
+}
+
+.home section p.header {
+	font-size: 3em;
+}
+
+
+
+
+/* ---------------------- Footer ------------------------------- */
+
+
+

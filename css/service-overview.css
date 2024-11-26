@@ -1,0 +1,372 @@
+/******* Hero *********/
+
+.page-template-service-overview #hero.center {
+	text-align: center!important;
+}
+
+.page-template-service-overview #hero.center .column.txt {
+    padding: 140px 0 80px 0;
+	width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/******* Services (Challenges) *********/
+
+.page-template-service-overview section.single-service#challenges .wrapper.challenges {
+	gap: 32px 24px!important;
+}
+
+.page-template-service-overview section.single-service#challenges .wrapper.challenges::after {
+	display: none!important;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	min-height: 320px;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge > .content {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge .img {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	width: 50%;
+	height: 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: -1;
+	transition: all 0.5s;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge .title {
+    font-family: 'LitSans';
+    font-size: 26px;
+	line-height: 36px;
+    font-weight: 500;
+	margin: 0 0 8px 0!important;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge .description {
+	flex-grow: 1;
+    font-family: 'MontRegular', Arial, Helvetica, sans-serif!important;
+    font-weight: 600!important;
+    font-size: 15px!important;
+    line-height: 26px!important;
+	opacity: 0;
+	transition: all 0.6s;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge:hover .description {
+	opacity: 0.8;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge:hover .img {
+	opacity: 0.2;
+}
+
+.page-template-service-overview section.single-service#challenges .single-challenge a.read-more::before, 
+.page-template-service-overview section.single-service#challenges .single-challenge a.read-more::after {
+    transform: scale(.85)
+}
+
+
+
+/******* Impact stories *********/
+
+.page-template-service-overview section.impact-stories {
+	padding: 96px 0;
+	background: linear-gradient(64.34deg, #C6D8F1 0%, #E7EBF5 100%);
+}
+
+.page-template-service-overview .impact-stories.wrapper {
+	justify-content: center!important;
+    gap: 32px;
+	padding-bottom: 32px;
+	border-bottom: 1px solid rgba(28, 33, 87, 0.5);
+}
+
+
+.page-template-service-overview .impact-stories.wrapper .single-impact-story {
+	flex-grow: 1;
+	width: 40%;
+	flex-basis: 40%;
+}
+
+.page-template-service-overview .impact-stories.wrapper .single-impact-story .thumbnail img {
+	border-radius: 12px;
+}
+
+.page-template-service-overview .impact-stories.wrapper .single-impact-story .taxonomy {
+	margin-top: 24px;
+	margin-bottom: 2px;
+	opacity: 0.75;
+	display: none;
+}
+
+.page-template-service-overview .impact-stories.wrapper .single-impact-story .title {
+	font-family: 'LitSans';
+	font-size: 18px;
+	word-break: break-word;
+	padding-top: 16px;
+}
+
+.page-template-service-overview .impact-stories.wrapper .single-impact-story .title:hover {
+	text-decoration:underline; 
+}
+
+/********** Why with memmbers **************/
+
+.page-template-service-overview section.single-service#why .members .single-member {
+	background: none!important;
+	box-shadow: none!important;
+}
+
+/*********** Testimonials **************/
+
+.page-template-service-overview .testimonials {
+    overflow: hidden;
+    outline:none;
+	margin-top: 64px;
+}
+
+.page-template-service-overview .testimonials .slick-track {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.page-template-service-overview .testimonials .column {
+	display: flex;
+    flex-direction: column;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    outline:none
+}
+
+.page-template-service-overview .testimonials .column > .slick-content {
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.page-template-service-overview .testimonials .column .img,
+.page-template-service-overview .testimonials .column .img img {
+	width: 96px;
+	height: 96px;
+	display: block;
+	border-radius: 50%;
+	margin: 0 auto;
+	object-fit: contain;
+}
+
+.page-template-service-overview .testimonials .column .evaluation {
+  width: 100%;
+  flex-basis: 100%;
+  float: none;
+  margin: 24px 0;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.page-template-service-overview .testimonials .column .evaluation::before, 
+.page-template-service-overview .testimonials .column .evaluation::after {
+	content: '"';
+	font-family: 'MontRegular', Arial, Helvetica, sans-serif;
+}
+
+.page-template-service-overview .testimonials .column .name {
+	font-family: 'LitSans';
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.page-template-service-overview .testimonials .column .position {
+	text-align: center;
+	opacity: 0.75;
+}
+
+
+
+.page-template-service-overview .slider-points {
+    padding-top: 10px;
+    overflow: hidden;
+    float: none;
+    clear:both
+}
+
+.page-template-service-overview .slick-dots {
+	position: relative!important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align:center
+}
+
+.page-template-service-overview .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.page-template-service-overview .slick-dots {
+    position: absolute;
+    bottom: 7px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0!important;
+    list-style: none;
+    text-align: center!important;
+	z-index: 2;
+}
+
+.page-template-service-overview .slick-dots li {
+    position: relative;
+	float: none!important;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.page-template-service-overview .slick-dots li::before {
+  display: none;
+}
+
+.page-template-service-overview .slick-dots li button {
+    font-size: 0!important;
+    line-height: 0!important;
+    display: block!important;
+    width: 12px!important;
+    height: 12px!important;
+    padding: 5px!important;
+    cursor: pointer!important;
+    color: transparent!important;
+    border: 0!important;
+    outline: none!important;
+    background: transparent!important;
+}
+.page-template-service-overview .slick-dots li button:hover,
+.page-template-service-overview .slick-dots li button:focus
+{
+    outline: none;
+}
+
+.page-template-service-overview .slick-dots li button:hover:before,
+.page-template-service-overview .slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+
+.page-template-service-overview .slick-dots li button:before
+{
+	content: '';
+    position: absolute;
+    top: 3px;
+    left: 0;
+	right: 0;
+	margin: 0 auto;
+    width: 8px;
+    height: 8px;
+    background: none;
+	box-shadow: inset 0 0 0 1px #1C2157;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.page-template-service-overview .slick-dots li.slick-active button:before {
+    background: #1C2157;
+}
+
+
+
+.page-template-service-overview .slick-arrow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	line-height: 40px !important;
+	top: calc(50% - 20px);
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.75;
+	z-index:2
+}
+
+.page-template-service-overview .slick-arrow:hover {
+	opacity: 1;
+}
+
+.page-template-service-overview .slick-arrow.slick-prev {
+	left:10px
+}
+
+.page-template-service-overview .slick-arrow.slick-next {
+	right:10px
+}
+
+       
+
+
+@media all and (max-width: 480px) {
+	.page-template-service-overview .testimonials .column {
+		flex-direction: column;
+	}
+
+    .page-template-service-overview .testimonials .column .img {
+        margin:0 auto 20px auto;
+    }
+
+    .page-template-service-overview .testimonials .column .text {
+        padding-left: 0;
+		width: 100%;
+		text-align: center;
+    }
+
+    .page-template-service-overview .testimonials .column .position {
+        text-align: center;
+    }
+	
+	
+	.page-template-service-overview .slick-dots li {
+		width: 20px;
+		height: 20px;
+		margin: 0 6px;
+	}
+
+	.page-template-service-overview .slick-dots li button {
+		width: 20px!important;
+		height: 20px!important;
+	}
+
+	.page-template-service-overview .slick-dots li button:before {
+    	top: 3px;
+    	width: 15px;
+    	height: 15px;
+	}
+	
+	.page-template-service-overview .impact-stories.wrapper .single-impact-story {
+	flex-grow: 1;
+	width: 100%;
+	flex-basis: 100%;
+	}
+	
+}
