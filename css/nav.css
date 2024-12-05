@@ -23,7 +23,7 @@ header .top_nav ul li a {
 }
 
 header .top_nav ul li a:hover {
-	color: #fff;
+	color: #3ebded;
 }
 
 header .top_nav ul li.contact a {
@@ -35,9 +35,9 @@ header .top_nav ul li.contact a {
 }
 
 header .top_nav ul li.contact a:hover {
-	background: #EEFF00;
+	background: #3ebded;
 	color: #1c2157;
-	border: 1px solid #EEFF00;
+	border: 1px solid #3ebded;
 }
 
 
