@@ -10,12 +10,13 @@
 
 /*** change colors of the main navigation *****/
 .page-template-single-service header:not(.header-shrink) {
-	background: none!important;
-	box-shadow: none!important;
+    background: #fff;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, .2);
+
 }
 
 .page-template-single-service header:not(.header-shrink):not(.open) .burger div {
-    background-color: #fff!important;
+    background-color: #1c2157!important;
 }
 
 .page-template-single-service header.open .nav_bar .burger div {
@@ -31,7 +32,7 @@
 }
 
 .page-template-single-service header:not(.header-shrink) .top_nav ul li a {
-    color: #c6d8f1
+    color: #1c2157
 }
 
 .page-template-single-service header:not(.header-shrink) .top_nav ul li a:hover {
@@ -225,18 +226,38 @@ body.overflow.page-template-single-service #service-navigation {
 
 
 .page-template-single-service #hero {
-	padding: 0; /* header 60px + 80px; bottom 80px */
+	padding: 160px 0 100px 0; /* header 60px + 100px; bottom 100px */
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	width: 100%;
 	height: auto;
-	min-height: 550px;
+	min-height: 100%;
+	color: #000014;
+
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	position: relative;
+	z-index: 1;
+}
+.page-template-single-service #hero::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+
 	background: #000014;
-	background: -moz-linear-gradient(left,  #000014 0%, #090b3c 55%, #1c2157 100%);
-	background: -webkit-linear-gradient(left,  #000014 0%,#090b3c 55%,#1c2157 100%);
-	background: linear-gradient(to right,  #000014 0%,#090b3c 55%,#1c2157 100%);
+	background: #F3FF00;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000014', endColorstr='#1c2157',GradientType=1 );
-	color: #fff;
+
+	z-index: -1;
 }
 
 .page-template-single-service #hero .column.txt {
@@ -258,7 +279,7 @@ body.overflow.page-template-single-service #service-navigation {
 	font-size: 48px;
 	margin-bottom: 16px;
 	margin-top: 0;
-	color: #f3ff00;
+	color: #000014;
 }
 
 .page-template-single-service #hero .subheader {
@@ -906,14 +927,13 @@ Info-Block
 	max-width: 350px;
 	width: 100%;
 	height: 280px;
-	padding: 32px;
 	background-color: #1C2157;
-	background-position: bottom 10px right -20px;
 	background-repeat: no-repeat;
 	background-size: 70% auto;
 	box-shadow: -10px -10px 20px -2px rgba(202, 205, 236, 0.25), 10px 12px 22px -2px rgba(28, 33, 87, 0.25);
 	border-radius: 12px;
 	border-left: 7px solid transparent;
+	background-position: center;
 }
 
 .page-template-single-service .info-block > .img  > h3 {
