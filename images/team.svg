@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.894" height="100.211" viewBox="0 0 99.894 100.211">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1c2157"/>
+      <stop offset="0.68" stop-color="#545d89"/>
+      <stop offset="1" stop-color="#c6d8f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.796" y1="0.248" x2="0.516" y2="1.084" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1c2157"/>
+      <stop offset="0.491" stop-color="#545d89"/>
+      <stop offset="1" stop-color="#c6d8f1"/>
+    </linearGradient>
+  </defs>
+  <g id="Gruppe_2259" data-name="Gruppe 2259" transform="translate(-0.051 -0.08)">
+    <g id="Gruppe_2258" data-name="Gruppe 2258">
+      <g id="Gruppe_2257" data-name="Gruppe 2257">
+        <g id="Gruppe_2256" data-name="Gruppe 2256">
+          <g id="Gruppe_2255" data-name="Gruppe 2255">
+            <g id="Gruppe_2254" data-name="Gruppe 2254">
+              <g id="Gruppe_2253" data-name="Gruppe 2253">
+                <rect id="Rechteck_45" data-name="Rechteck 45" width="99.894" height="99.894" transform="translate(0.051 0.079)" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_5579" data-name="Gruppe 5579" transform="translate(-1647.248 -724.927)">
+      <g id="Gruppe_5578" data-name="Gruppe 5578">
+        <path id="Pfad_47142" data-name="Pfad 47142" d="M1697.229,756.681a15.837,15.837,0,1,0-15.838-15.837A15.856,15.856,0,0,0,1697.229,756.681Zm0-30.174a14.337,14.337,0,1,1-14.338,14.337A14.354,14.354,0,0,1,1697.229,726.507Z" fill="url(#linear-gradient)"/>
+        <path id="Pfad_47143" data-name="Pfad 47143" d="M1697.229,760.971a14.354,14.354,0,0,1,14.337,14.337h1.5a15.838,15.838,0,1,0-15.837,15.837v-1.5a14.337,14.337,0,1,1,0-28.674Z" fill="url(#linear-gradient-2)"/>
+        <path id="Pfad_47144" data-name="Pfad 47144" d="M1697.229,793.544a15.837,15.837,0,1,0,15.837,15.837A15.856,15.856,0,0,0,1697.229,793.544Zm0,30.174a14.337,14.337,0,1,1,14.337-14.337A14.354,14.354,0,0,1,1697.229,823.718Z" fill="url(#linear-gradient)"/>
+        <path id="Pfad_47145" data-name="Pfad 47145" d="M1726.3,775.875a15.837,15.837,0,1,0,15.838,15.837A15.856,15.856,0,0,0,1726.3,775.875Zm0,30.174a14.337,14.337,0,1,1,14.338-14.337A14.354,14.354,0,0,1,1726.3,806.049Z" fill="url(#linear-gradient)"/>
+        <path id="Pfad_47146" data-name="Pfad 47146" d="M1668.19,775.875a15.837,15.837,0,1,0,15.837,15.837A15.855,15.855,0,0,0,1668.19,775.875Zm0,30.174a14.337,14.337,0,1,1,14.337-14.337A14.354,14.354,0,0,1,1668.19,806.049Z" fill="url(#linear-gradient)"/>
+        <path id="Pfad_47147" data-name="Pfad 47147" d="M1726.3,774.683a15.837,15.837,0,1,0-15.837-15.837A15.855,15.855,0,0,0,1726.3,774.683Zm0-30.174a14.337,14.337,0,1,1-14.337,14.337A14.354,14.354,0,0,1,1726.3,744.509Z" fill="url(#linear-gradient)"/>
+        <path id="Pfad_47148" data-name="Pfad 47148" d="M1668.19,774.683a15.837,15.837,0,1,0-15.837-15.837A15.856,15.856,0,0,0,1668.19,774.683Zm0-30.174a14.337,14.337,0,1,1-14.337,14.337A14.354,14.354,0,0,1,1668.19,744.509Z" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_5412" data-name="Group 5412">
+        <circle id="Ellipse_710" data-name="Ellipse 710" cx="2.674" cy="2.674" r="2.674" transform="translate(1709.291 773.201)" fill="#1c2157"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.328" height="99.894" viewBox="0 0 100.328 99.894">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-4.174" y1="0.5" x2="5.174" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1c2157"/>
+      <stop offset="0.68" stop-color="#545d89"/>
+      <stop offset="1" stop-color="#c6d8f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="9.355" y1="0.493" x2="-9.689" y2="0.509" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.754" y1="-2.776" x2="0.13" y2="5.279" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="1.438" y1="0.712" x2="-1.586" y2="0.029" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="7.093" y1="0.78" x2="-6.397" y2="0.207" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1c2157"/>
+      <stop offset="0.637" stop-color="#545d89"/>
+      <stop offset="1" stop-color="#c6d8f1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.045" x2="0.955" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="0.39" x2="0.61" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="-6.688" x2="7.688" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="0.001" x2="0.999" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="0.546" y1="-1.789" x2="0.37" y2="6.926" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Gruppe_4994" data-name="Gruppe 4994" transform="translate(0.383 -0.08)">
+    <g id="Gruppe_4992" data-name="Gruppe 4992">
+      <g id="Gruppe_4991" data-name="Gruppe 4991">
+        <g id="Gruppe_4990" data-name="Gruppe 4990">
+          <g id="Gruppe_4989" data-name="Gruppe 4989">
+            <g id="Gruppe_4988" data-name="Gruppe 4988">
+              <g id="Gruppe_4987" data-name="Gruppe 4987">
+                <rect id="Rechteck_107" data-name="Rechteck 107" width="99.894" height="99.894" transform="translate(0.051 0.079)" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Gruppe_5565" data-name="Gruppe 5565" transform="translate(-1767.612 -844.593)">
+      <g id="Group_4993" data-name="Group 4993">
+        <g id="Line_1004" data-name="Line 1004">
+          <path id="Pfad_47129" data-name="Pfad 47129" d="M1817.854,847.271" fill="#fff"/>
+        </g>
+        <g id="Line_1005" data-name="Line 1005">
+          <rect id="Rechteck_243" data-name="Rechteck 243" width="1.501" height="28.651" transform="translate(1818.871 851.028) rotate(-26.269)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Line_1006" data-name="Line 1006">
+          <path id="Pfad_47130" data-name="Pfad 47130" d="M1833.07,878.1" fill="#fff"/>
+        </g>
+        <g id="Line_1007" data-name="Line 1007">
+          <rect id="Rechteck_244" data-name="Rechteck 244" width="1.5" height="28.651" transform="translate(1836.743 879.394) rotate(-81.732)" fill="url(#linear-gradient-2)"/>
+        </g>
+        <g id="Line_1008" data-name="Line 1008">
+          <path id="Pfad_47131" data-name="Pfad 47131" d="M1867.095,883.047" fill="#fff"/>
+        </g>
+        <g id="Line_1009" data-name="Line 1009">
+          <rect id="Rechteck_245" data-name="Rechteck 245" width="28.653" height="1.5" transform="matrix(0.716, -0.698, 0.698, 0.716, 1843.317, 905.175)" fill="url(#linear-gradient-3)"/>
+        </g>
+        <g id="Line_1010" data-name="Line 1010">
+          <path id="Pfad_47132" data-name="Pfad 47132" d="M1842.475,907.046" fill="#fff"/>
+        </g>
+        <g id="Line_1011" data-name="Line 1011">
+          <rect id="Rechteck_246" data-name="Rechteck 246" width="1.5" height="28.652" transform="translate(1842.381 910.938) rotate(-9.733)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="Line_1012" data-name="Line 1012">
+          <path id="Pfad_47133" data-name="Pfad 47133" d="M1848.286,940.935" fill="#fff"/>
+        </g>
+        <g id="Line_1013" data-name="Line 1013">
+          <rect id="Rechteck_247" data-name="Rechteck 247" width="1.5" height="28.653" transform="matrix(0.465, -0.885, 0.885, 0.465, 1819.195, 926.487)" fill="url(#linear-gradient-5)"/>
+        </g>
+        <g id="Line_1014" data-name="Line 1014">
+          <path id="Pfad_47134" data-name="Pfad 47134" d="M1817.854,924.935" fill="#fff"/>
+        </g>
+        <g id="Line_1015" data-name="Line 1015">
+          <rect id="Rechteck_248" data-name="Rechteck 248" width="28.653" height="1.5" transform="translate(1788.759 939.374) rotate(-27.699)" fill="url(#linear-gradient-6)"/>
+        </g>
+        <g id="Line_1016" data-name="Line 1016">
+          <path id="Pfad_47135" data-name="Pfad 47135" d="M1787.42,940.935" fill="#fff"/>
+        </g>
+        <g id="Line_1017" data-name="Line 1017">
+          <rect id="Rechteck_249" data-name="Rechteck 249" width="28.652" height="1.5" transform="translate(1787.324 937.04) rotate(-80.256)" fill="url(#linear-gradient-7)"/>
+        </g>
+        <g id="Line_1018" data-name="Line 1018">
+          <path id="Pfad_47136" data-name="Pfad 47136" d="M1793.232,907.046" fill="#fff"/>
+        </g>
+        <g id="Line_1019" data-name="Line 1019">
+          <rect id="Rechteck_250" data-name="Rechteck 250" width="1.5" height="28.653" transform="translate(1769.456 884.917) rotate(-45.732)" fill="url(#linear-gradient-8)"/>
+        </g>
+        <g id="Line_1020" data-name="Line 1020">
+          <path id="Pfad_47137" data-name="Pfad 47137" d="M1768.611,883.047" fill="#fff"/>
+        </g>
+        <g id="Line_1021" data-name="Line 1021">
+          <rect id="Rechteck_251" data-name="Rechteck 251" width="28.651" height="1.5" transform="translate(1772.284 881.747) rotate(-8.236)" fill="url(#linear-gradient-9)"/>
+        </g>
+        <g id="Line_1022" data-name="Line 1022">
+          <path id="Pfad_47138" data-name="Pfad 47138" d="M1802.637,878.1" fill="#fff"/>
+        </g>
+        <g id="Line_1023" data-name="Line 1023">
+          <rect id="Rechteck_252" data-name="Rechteck 252" width="28.651" height="1.501" transform="translate(1803.655 874.344) rotate(-63.735)" fill="url(#linear-gradient-10)"/>
+        </g>
+      </g>
+      <g id="Group_5412" data-name="Group 5412">
+        <circle id="Ellipse_710" data-name="Ellipse 710" cx="2.674" cy="2.674" r="2.674" transform="translate(1815.18 847.271)" fill="#1c2157"/>
+      </g>
+      <g id="Group_5412-2" data-name="Group 5412">
+        <circle id="Ellipse_710-2" data-name="Ellipse 710" cx="2.674" cy="2.674" r="2.674" transform="translate(1862.21 881.718)" fill="#1c2157"/>
+      </g>
+      <g id="Group_5412-3" data-name="Group 5412">
+        <circle id="Ellipse_710-3" data-name="Ellipse 710" cx="2.674" cy="2.674" r="2.674" transform="translate(1767.23 880.49)" fill="#1c2157"/>
+      </g>
+      <g id="Group_5412-4" data-name="Group 5412">
+        <circle id="Ellipse_710-4" data-name="Ellipse 710" cx="2.674" cy="2.674" r="2.674" transform="translate(1843.48 936.62)" fill="#1c2157"/>
+      </g>
+      <g id="Group_5412-5" data-name="Group 5412">
+        <circle id="Ellipse_710-5" data-name="Ellipse 710" cx="2.674" cy="2.674" r="2.674" transform="translate(1785.14 936.504)" fill="#1c2157"/>
+      </g>
+    </g>
+  </g>
+</svg>
