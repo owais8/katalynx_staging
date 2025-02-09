@@ -74,77 +74,57 @@
     .gb-container .wp-block-image img{vertical-align:middle;}.gb-grid-wrapper .wp-block-image{margin-bottom:0;}.gb-highlight{background:none;}.gb-container-link{position:absolute;top:0;right:0;bottom:0;left:0;z-index:99;}
     </style>
     
-    <style> 
-    a {
-        text-decoration: none;
-    }
-.container {
-  overflow: hidden;
-  .slider {
-    animation: slidein 30s linear infinite;
-    white-space: nowrap;
-    .logos {
-      width: 100%;
-      display: inline-block;
-      margin: 0px 0;
-      .fab {
-        width: calc(100% / 5);
-        animation: fade-in 0.5s 
-          cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
-      }
-    }
-  }
-}
-.custom-logo {
-   width: 20%; /* Adjust size as needed */
-   height: auto;
-   margin: 0 30px; /* Space between logos */
-   display: inline-block;
-   vertical-align: middle;
-}
-@keyframes slidein {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-#about {
-    background-image: url("./images/cartoons.png");
-    background-size: cover;  /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 300px; /* Adjust based on your design */
-}
-
-/* Make it responsive */
-@media (max-width: 768px) {
-    #about {
-        background-size: contain; /* Ensures full visibility on smaller screens */
-        min-height: 200px;
-    }
-}
-
-@media (max-width: 480px) {
-    #about {
-        background-size: contain;
-        min-height: 150px;
-    }
-}
-
-
-    </style>
+<style>
+        .logo-slider {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        .logo-slider-track {
+            display: flex;
+            animation: scroll 40s linear infinite;
+            width: calc(250px * 14); /* Double the width for seamless loop */
+        }
+        
+        .logo-slide {
+            flex-shrink: 0;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 15px;
+        }
+        
+        .logo-slide img {
+            max-width: 180px;
+            height: auto;
+            transition: all 0.3s ease;
+        }
+        
+        .logo-slide img:hover {
+            filter: grayscale(0);
+            transform: scale(1.1);
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(calc(-250px * 7)); } /* Move by half width */
+        }
+        
+        @media (max-width: 768px) {
+            .logo-slider-track {
+                animation: scroll 40s linear infinite;
+            }
+            .logo-slide {
+                width: 150px;
+            }
+            .logo-slide img {
+                max-width: 120px;
+            }
+        }
+</style>
     <script type="text/javascript" src="js/KeFz8wgcpkMG.js" id="jquery-core-js"></script>
     
     
@@ -199,14 +179,11 @@
                         <div class="nav-title">What we do</div>
                     </div>
                     
-                    <div class="menu-primary-navigation-container"><ul id="menu-primary-navigation" class="menu"><li id="menu-item-85224" class="active menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-85224"><a href="our_services.html">Services</a>
-</li>
-<li id="menu-item-90117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-90117"><a href="#">Clients</a>
-
-</li>
-<li id="menu-item-85238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85238"><a href="#">Katalyx Initiatives</a></li>
-<li id="menu-item-87982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87982"><a href="#">Future Lab</a></li>
-<li id="menu-item-85240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85240"><a href="#">Publications</a></li>
+                    <div class="menu-primary-navigation-container"><ul id="menu-primary-navigation" class="menu">
+                        <li id="menu-item-85238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85238"><a href="our_services.html">Services</a></li>
+                        <li id="menu-item-85238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85238"><a href="our_clients.html">Clients</a></li>
+<li id="menu-item-85238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85238"><a href="expertise.html">Expertise</a></li>
+<li id="menu-item-87982" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87982"><a href="coming-soon.html">Future Lab</a></li>
 <li id="menu-item-85595" class="contact mobile menu-item menu-item-type-post_type menu-item-object-page menu-item-85595"><a href="contact-us.html">Connect with us</a></li>
 </ul></div>						
                     <div class="d"><noscript><img src="./images/d.svg"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="./images/d.svg"></div>
@@ -216,11 +193,10 @@
                     <div class="top">
                         <div class="nav-title">Who we are</div></div>
                     <div class="nav-container">
-                        <div class="menu-secondary-navigation-container"><ul id="menu-secondary-navigation" class="menu"><li id="menu-item-85241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85241"><a href="#">About Katalynx</a></li>
-<li id="menu-item-85245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85245"><a href="#">Our Leadership</a></li>
-<li id="menu-item-85243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85243"><a href="careers.html">Careers</a></li>
-<li id="menu-item-91140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91140"><a href="#">News</a></li>
-<li id="menu-item-85246" class="contact menu-item menu-item-type-post_type menu-item-object-page menu-item-85246"><a href="contact-us.html">Connect with us</a></li>
+                        <div class="menu-secondary-navigation-container"><ul id="menu-secondary-navigation" class="menu"><li id="menu-item-85241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85241"><a href="about-us.html">About Katalynx</a></li>
+                            <li id="menu-item-85243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85243"><a href="careers.html">Careers</a></li>
+                            <li id="menu-item-91140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91140"><a href="coming-soon.html">News</a></li>
+                            <li id="menu-item-85246" class="contact menu-item menu-item-type-post_type menu-item-object-page menu-item-85246"><a href="contact-us.html">Connect with us</a></li>
 </ul></div>							
                         <div class="nav-contact">
                             <div class="dc"><noscript><img src="./images/dc_blue.svg"></noscript><img class="lazyload" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E" data-src="./images/dc_blue.svg"></div>
@@ -242,7 +218,7 @@
                 <div class="logo mobile">
                     <a href="index.html">
                     <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 50" enable-background="new 0 0 200 50" xml:space="preserve">
-                        <img src="./images/Katalynx-Logo- white.svg" alt="" style="width: 100%; margin-top:-40%;" id="logo">
+                        <img src="./images/Katalynx-Logo- white.svg" alt="" style="width: 100%; margin-top:-40%;" id="logo2">
 
                     </svg>
                 </a>
@@ -491,32 +467,66 @@
                     <a class="link read-more blue" href="about-us.html">About Us</a><a class="link read-more blue" href="#">Our Team</a>			</div>
             </div>
         </section>
-    
-    
-        
+
         <section id="success-stories" style="padding-top: 3%; padding-bottom: 3%;">
-            <div class="container h-100" style="padding-bottom: 7%;">
-                <div class="row align-items-center h-100">
-                  <div class="container rounded">
-                    <h1 class="text-center" style="text-align: center; color: white;">Our Clients</h1>
-                    <div class="slider">
-                      <div class="logos">
-                        <img src="images/byd.png" alt="" class="custom-logo">
-                        <img src="images/fatima.png" alt="" class="custom-logo">
-                        <img src="images/sapphire.png" alt="" class="custom-logo">
-                        <img src="images/cgdc.png" alt="" class="custom-logo">
-                      </div>
-                      <div class="logos">
-                        <img src="images/byd.png" alt="" class="custom-logo">
-                        <img src="images/fatima.png" alt="" class="custom-logo">
-                        <img src="images/sapphire.png" alt="" class="custom-logo">
-                        <img src="images/cgdc.png" alt="" class="custom-logo">
-                      </div>
+            <div class="container">
+                <h1 style="color: white;">Our Clients</h1>
+                <div class="logo-slider" style="padding-bottom: 6%;">
+                    <div class="logo-slider-track">
+                        <!-- Duplicate slides for infinite effect -->
+                        <div class="logo-slide">
+                            <img src="images/byd.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/fatima.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/sapphire.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/cgdc.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/byd.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/fatima.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/sapphire.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/cgdc.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/byd.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/fatima.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/sapphire.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/cgdc.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/byd.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/fatima.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/sapphire.png" class="img-fluid" alt="logo">
+                        </div>
+                        <div class="logo-slide">
+                            <img src="images/cgdc.png" class="img-fluid" alt="logo">
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-        </section> 
+            </div>
+            
+        </section>
         
         <section id="connect">
             <div class="container">
@@ -676,13 +686,16 @@
     <script>
     document.addEventListener("DOMContentLoaded", function () {
         const logo = document.querySelector('#logo'); 
+        const logo2 = document.querySelector('#logo2');
         const scrollThreshold = 70; 
 
         function updateLogo() {
             if (window.scrollY > scrollThreshold) {
                 logo.setAttribute('src', './images/Katalynx-Logo- Colored.svg');
+                logo2.setAttribute('src', './images/Katalynx-Logo- Colored.svg');
             } else {
                 logo.setAttribute('src', './images/Katalynx-Logo- white.svg');
+                logo2.setAttribute('src', './images/Katalynx-Logo- white.svg');
             }
         }
 
